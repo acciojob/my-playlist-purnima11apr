@@ -1,1 +1,49 @@
 /*  your css code here. If applicable */
+*{
+	background-color: rgb(204, 204, 204)
+}
+h1{
+	text-align:center;
+}
+.playlist{
+	border: 1px solid black;
+	border-radius: 8px;
+}
+.playlist , ul,li{
+	background-color: rgb(255, 255, 255);
+	
+}
+a{
+	background-color: rgb(255, 255, 255);
+	text-decoration:none;
+	color: black;
+}
+
+/* ... Your existing styles ... */
+
+.player_one,
+.player_two {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  max-width: 450px;
+ border: 1px solid black;
+}
+
+
+video{
+	height:300px;
+	width:450px;
+}
+
+h2{
+	text-align:center;
+}
+
+audio{
+	height: 30px;
+	width: 400px;
+	border: none;
+	border-radius:15%;
+}
